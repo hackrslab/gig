@@ -1,0 +1,8 @@
+.git*
+*.swp
+.idea
+*.iml
+npm-debug.log
+.DS_Store
+docs/
+examples/

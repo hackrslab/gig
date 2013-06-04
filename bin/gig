@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var gig = require('gig')
+    nopt = require('nopt'),
+    option = require('../lib/gig/option');
+
+
+var parsed =  nopt(option.known,option.shortcut,process.argv,2);
+
+var cmd = parsed.argv.remain,
+    opt = parsed;
+
+gig.tasks(cmd,opt);
