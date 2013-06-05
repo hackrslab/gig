@@ -16,7 +16,7 @@ var config = {
   _baseDir : __dirname,
   _libDir : path.join(__dirname,'lib'),
   _moduleDir : path.join(__dirname,'lib','gig'),
-  _filePath : path.join(__dirname,'lib','gitignore'),
+  _fileDir : path.join(__dirname,'lib','gitignore'),
   _ext : '.gitignore'
  };
 
