@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/intro957/nvm/v0.10.8/bin/node',
+1 verbose cli   '/Users/intro957/nvm/v0.10.8/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.2.23
+3 info using node@v0.10.8
+4 verbose publish [ '.' ]
+5 verbose read json /Users/intro957/workspace/personal/opensource/gig/package.json
+6 error Error: invalid version: 0.1.6.1
+6 error     at Object.module.exports.fixVersionField (/Users/intro957/nvm/v0.10.8/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/fixer.js:84:13)
+6 error     at /Users/intro957/nvm/v0.10.8/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/normalize.js:28:38
+6 error     at Array.forEach (native)
+6 error     at normalize (/Users/intro957/nvm/v0.10.8/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/normalize.js:27:15)
+6 error     at final (/Users/intro957/nvm/v0.10.8/lib/node_modules/npm/node_modules/read-package-json/read-json.js:304:33)
+6 error     at then (/Users/intro957/nvm/v0.10.8/lib/node_modules/npm/node_modules/read-package-json/read-json.js:118:48)
+6 error     at /Users/intro957/nvm/v0.10.8/lib/node_modules/npm/node_modules/read-package-json/read-json.js:228:40
+6 error     at fs.js:266:14
+6 error     at Object.oncomplete (fs.js:107:15)
+7 error If you need help, you may report this log at:
+7 error     <http://github.com/isaacs/npm/issues>
+7 error or email it to:
+7 error     <npm-@googlegroups.com>
+8 error System Darwin 12.3.0
+9 error command "/Users/intro957/nvm/v0.10.8/bin/node" "/Users/intro957/nvm/v0.10.8/bin/npm" "publish"
+10 error cwd /Users/intro957/workspace/personal/opensource/gig
+11 error node -v v0.10.8
+12 error npm -v 1.2.23
+13 verbose exit [ 1, true ]
