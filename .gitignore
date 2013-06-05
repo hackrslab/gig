@@ -22,3 +22,19 @@ Icon
 .Spotlight-V100
 .Trashes
 
+### java ###
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+### java ###
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
