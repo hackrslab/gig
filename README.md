@@ -31,6 +31,8 @@ $ gig gen -o java intellij sublimetest
 
 ### packaging template
 
+pkg command is usable to create custom template. 
+
 ```
 // If aleady 'mypakage' file exists, append conditions to 'mypakage' file.
 $ gig pkg -name 'mypakage' java intellij sublimetext  
@@ -38,7 +40,26 @@ $ gig pkg -name 'mypakage' java intellij sublimetext
 // if do you want to override `mypakage` file,usable to options : --override (shortcut : -o) 
 $ gig pkg -name 'mypakage' -o java intellij sublimetext  
 
+$ gig show mypakage
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+intellij :
+*.iml
+*.ipr
+*.iws
+.idea/
+
+sublimetext :
+# SublimeText project files
+*.sublime-workspace
 ```
+
+
 
 ### Display ignore conditions.
 
