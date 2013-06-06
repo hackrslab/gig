@@ -1,18 +1,10 @@
 {
   "name": "gig",
   "description": "gig is useful generator for .gitignore files",
-  "version": "0.1.8",
-  "author": { 
-    "name": "insanehong", 
-    "email": "insanehong@gmail.com", 
-    "url": "http://insanehong.kr/" 
-  },
-  "maintainers" : {
-	  "name" : "dgkim84",
-		"email" : "dgkim84@gmail.com",
-		"url" : "http://blog.geekple.com" 
-	},
-	"licenses": [ 
+  "version": "0.1.9",
+	author: 'insanehong <insanehong@gmail.com>',
+  maintainers: 'daegeun.kim  <dgkim84@gmail.com>',
+  "licenses": [ 
     {
       "type": "MIT",
       "url": "https://github.com/insanehong/gig/blob/master/LICENSE"
