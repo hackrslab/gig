@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cmd_default() {
+  for name in $@; do
+    for tpl in `find $GIG_HOME/gitignore | grep -i "/$name.gitignore"`; do
+      echo "### $name" >> .gitignore
+      cat $tpl >> .gitignore
+      info "Added ignore tmeplate - $name"
+    done
+  done
+}

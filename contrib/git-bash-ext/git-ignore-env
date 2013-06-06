@@ -1,0 +1,2 @@
+#!/bin/bash
+export GIG_HOME=${GIG_HOME-"/usr/local/lib/gig"}

@@ -1,0 +1,61 @@
+#!/bin/sh
+DIR=`dirname $0`
+
+info() {
+  echo "\033[0;33m$@\033[0m"
+}
+
+error() {
+  echo "\033[0;31m$@\033[0m"
+}
+
+usage() {
+  info "usage: git ignore <subcommand>"
+  echo
+  echo "Available subcommands are:"
+  echo "          update - update git ignore extension"
+  echo
+  echo "          init [template[ template ...]] - initialize .gitignore (remove and apply)"
+  echo "          list - list tmeplate"
+  echo "          add <patten> - append ignore pattern to .gitignore"
+  echo "          apply <template name> [template ...] - apply template to .gitignore"
+  echo
+  echo "git ignore <subcommand> help"
+  echo
+  echo "Distributed under MIT License. Written by Daegeun Kim - @GeekDani"
+  echo
+}
+
+invoke() {
+  if [ $# -lt 1 ]; then
+    usage
+    exit 1
+  fi
+
+  . "$DIR/git-ignore-env"
+
+  COMMAND="$1"; shift
+  ACTION="default"
+
+  if [ ! -e "$DIR/git-ignore-$COMMAND" ]; then
+    usage
+    exit 1
+  fi
+
+  . "$DIR/git-ignore-$COMMAND"
+
+  if [ "$1" != "" ] && [[ ! "$1" == -* ]]; then
+    if [ "$COMMAND" != "init" ]; then
+      ACTION="$1"; shift
+    fi
+  fi
+
+  if ! type "cmd_$ACTION" >/dev/null 2>&1; then
+    cmd_default "$ACTION $@"
+  else
+    cmd_$ACTION "$@"
+  fi
+
+}
+
+invoke "$@"

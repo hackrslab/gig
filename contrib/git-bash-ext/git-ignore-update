@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cmd_default() {
+  cd $GIG_HOME && git fetch --all && git reset origin/master
+  if [ "$?" == "0" ]; then
+    info "Update Successful"
+  else
+    erorr "Update Error"
+  fi
+}

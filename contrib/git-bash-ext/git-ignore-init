@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cmd_default() {
+  if [ -f .gitignore ]; then
+    rm .gitignore
+  fi
+  git ignore apply $@
+  echo "Initialized .gitignore"
+}

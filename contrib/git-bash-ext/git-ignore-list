@@ -1,0 +1,16 @@
+#!/bin/sh
+
+cmd_default() {
+  keyword=$1
+  cnt=0
+  for name in `find $GIG_HOME/gitignore -name '*.gitignore'`; do
+    cnt=`expr $cnt + 1`
+    name="$(basename $name | cut -d'.' -f1)"
+    if [ "0$keyword" != "0" ] && { echo $name | grep -q $keyword; } then
+      name="$(info $name)"
+    fi
+    NAMES="$NAMES  $name"
+    if [ $cnt == 6 ]; then cnt=0; NAMES="$NAMES\n"; fi
+  done
+  echo $NAMES
+}
