@@ -80,7 +80,7 @@ $ gig --help
 
 # ChangeLog
 
-[ChangeLog][https://github.com/insanehong/gig/tree/master/ChangeLog]
+[See the ChangeLog](https://github.com/insanehong/gig/tree/master/ChangeLog)
 
 # LICENCE
 
