@@ -62,8 +62,6 @@ sublimetext :
 *.sublime-workspace
 ```
 
-
-
 ### Display ignore conditions.
 
 ```
@@ -75,6 +73,15 @@ $ gig show java intellij sublimetext
 ```
 $ gig --help
 ```
+
+# gitignore template files source by 
+
+[GitHub gitignore repository](https://github.com/github/gitignore)
+
+# ChangeLog
+
+[ChangeLog][https://github.com/insanehong/gig/tree/master/ChangeLog]
+
 # LICENCE
 
 ## MIT LICENSE
@@ -83,5 +90,5 @@ The MIT License
 
 Copyright (c) 2013 The gig Authors
 
-See the LICENSE file for details. 
+See the [LICENSE](https://github.com/insanehong/gig/tree/master/LICENSE) file for details. 
 

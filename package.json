@@ -1,7 +1,7 @@
 {
   "name": "gig",
   "description": "gig is useful generator for .gitignore files",
-  "version": "0.1.13",
+  "version": "0.1.14",
 	"author": "insanehong <insanehong@gmail.com>",
   "maintainers": "daegeun.kim <dgkim84@gmail.com>",
   "licenses": [ 
@@ -21,12 +21,13 @@
     "node": ">= 0.10.0" 
   },
   "scripts": {
-    
+    "install" : "gig init"
   },
   "main": "lib/gig.js",
   "dependencies": {
     "nopt":"2.1.1",
-    "colors": "*"
+    "colors": "*",
+    "mkdirp" : "*"
   },
   "devDependencies": {
   },

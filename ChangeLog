@@ -1,0 +1,7 @@
+# ChangeLog
+
+## v0.1.14 - 2013.06.07 (GMT+09)
+
+* Change custom template save directory
+  * gig/gitignore -> ${HOME}/.gig
+  * add Defendency module : mkdirp
