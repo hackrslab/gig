@@ -1,0 +1,4 @@
+
+2013.06.07
+
+* Add git ignore init / git ignore add / git ignore apply / git ignore update / git ignore list

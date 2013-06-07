@@ -2,6 +2,9 @@
 
 gig is help you create `.gitignore` files for your git repository.
 
+## contrib
+* [Git bash extension - git ignore](https://github.com/insanehong/gig/tree/master/contrib/git-bash-ext)
+
 ## install
 
 ```
