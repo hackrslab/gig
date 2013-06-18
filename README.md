@@ -3,7 +3,7 @@
 gig is help you create `.gitignore` files for your git repository.
 
 ## contrib
-* [Git bash extension - git ignore](https://github.com/insanehong/gig/tree/master/contrib/git-bash-ext)
+* [Git bash extension - git ignore](https://github.com/hackrslab/gig/tree/master/contrib/git-bash-ext)
 
 ## install
 
@@ -80,7 +80,7 @@ $ gig --help
 
 # ChangeLog
 
-[See the ChangeLog](https://github.com/insanehong/gig/tree/master/ChangeLog)
+[See the ChangeLog](https://github.com/hackrslab/gig/tree/master/ChangeLog)
 
 # LICENCE
 
@@ -90,5 +90,5 @@ The MIT License
 
 Copyright (c) 2013 The gig Authors
 
-See the [LICENSE](https://github.com/insanehong/gig/tree/master/LICENSE) file for details. 
+See the [LICENSE](https://github.com/hackrslab/gig/tree/master/LICENSE) file for details. 
 
