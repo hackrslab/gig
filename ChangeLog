@@ -1,5 +1,9 @@
 # ChangeLog
 
+## v0.1.16 - 2014. 6. 16 (GMT+09)
+
+- modify help message for templete option
+
 ## v0.1.14 - 2013.06.07 (GMT+09)
 
 * Change custom template save directory
