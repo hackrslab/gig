@@ -1,5 +1,9 @@
 # ChangeLog
 
+## v0.1.18 - 2014. 8. 22 (GMT+09)
+
+- Update gitignore template from https://github.com/github/gitignore
+
 ## v0.1.17 - 2014. 6. 16 (GMT+09)
 
 - modify help message for templete option
