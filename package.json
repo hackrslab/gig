@@ -1,7 +1,7 @@
 {
   "name": "gig",
   "description": "gig is useful generator for .gitignore files",
-  "version": "0.2.1",
+  "version": "0.2.2",
 	"author": "insanehong <insanehong@gmail.com>",
   "maintainers": "daegeun.kim <dgkim84@gmail.com>",
   "licenses": [ 
