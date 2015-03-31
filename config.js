@@ -12,7 +12,7 @@ var path = require('path');
 
 var config = {
   title : 'gig',
-  version : "0.2.3",
+  version : "0.2.4",
   _baseDir : __dirname,
   _libDir : path.join(__dirname,'lib'),
   _moduleDir : path.join(__dirname,'lib','gig'),

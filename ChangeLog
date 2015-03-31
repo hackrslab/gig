@@ -1,5 +1,9 @@
 # ChangeLog
 
++## v0.2.4 - 2015. 03. 31 (GMT+09)
+- Update gitignore template from https://github.com/github/gitignore
+- Update npm dependency
+
 ## v0.2.3 - 2014. 11. 12 (GMT+09)
 - Update gitignore template from https://github.com/github/gitignore
 
