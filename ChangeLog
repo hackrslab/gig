@@ -1,5 +1,10 @@
 # ChangeLog
 
+## v0.2.5 - 2015.04.08 (GMT+09)
+- Update README.md
+- Change help messages
+- Auto sort template list alphabetically
+
 +## v0.2.4 - 2015. 03. 31 (GMT+09)
 - Update gitignore template from https://github.com/github/gitignore
 - Update npm dependency
