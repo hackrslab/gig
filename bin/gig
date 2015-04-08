@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var gig = require('gig')
+var gig = require('../lib/gig')
     nopt = require('nopt'),
     option = require('../lib/gig/option');
 
