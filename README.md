@@ -28,7 +28,7 @@ generate a `.gitignore` file for your git project
 $ gig gen java intellij sublimetext  
 
 // If you want to overrride a `.gitignore` file, add commands to options : --override (shortcut : -o) 
-$ gig gen -o java intellij sublimetest 
+$ gig gen -o java intellij sublimetext 
 
 ```
 
