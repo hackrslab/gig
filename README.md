@@ -1,6 +1,6 @@
 # gig
 
-gig helps you create `.gitignore` files for your git project.
+gig helps you create a new `.gitignore` files for your git project.
 
 ## contrib
 * [Git bash extension - git ignore](https://github.com/hackrslab/gig/tree/master/contrib/git-bash-ext)
@@ -8,13 +8,13 @@ gig helps you create `.gitignore` files for your git project.
 ## install
 
 ```
-$ npm install -g gig
+npm install -g gig 
 ```
 
 ## update
 
 ```
-$ npm update -g gig
+npm update -g gig
 ```
 
 ## usage
@@ -24,11 +24,11 @@ $ npm update -g gig
 generate a `.gitignore` file for your git project
 
 ```
-// If a `.gitignore` file aleady exists, append conditions to the `.gitignore` file.
-$ gig gen java intellij sublimetext  
+# If a `.gitignore` file aleady exists, append conditions to the `.gitignore` file.
+gig gen java intellij sublimetext  
 
-// If you want to overrride a `.gitignore` file, add commands to options : --override (shortcut : -o) 
-$ gig gen -o java intellij sublimetext 
+# If you want to overrride a `.gitignore` file, add commands to options : --override (shortcut : -o) 
+gig gen -o java intellij sublimetext 
 
 ```
 
@@ -37,13 +37,13 @@ $ gig gen -o java intellij sublimetext
 pkg command is to create a custom template. 
 
 ```
-// If a 'mypakage' file aleady exists, append conditions to the 'mypakage' file.
-$ gig pkg -name 'mypakage' java intellij sublimetext  
+# If a 'mypakage' file aleady exists, append conditions to the 'mypakage' file.
+gig pkg -name 'mypakage' java intellij sublimetext  
 
-// if you want to override a `mypakage` file, add commands to options : --override (shortcut : -o) 
-$ gig pkg -name 'mypakage' -o java intellij sublimetext  
+# if you want to override a `mypakage` file, add commands to options : --override (shortcut : -o) 
+gig pkg -name 'mypakage' -o java intellij sublimetext  
 
-$ gig show mypakage
+gig show mypakage
 *.class
 
 # Package Files #
@@ -65,13 +65,13 @@ sublimetext :
 ### Display ignore conditions.
 
 ```
-$ gig show java intellij sublimetext  
+gig show java intellij sublimetext  
 ```
 
 ### More Information
 
 ```
-$ gig --help
+gig --help
 ```
 
 # gitignore template files sourced in 
