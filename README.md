@@ -74,15 +74,19 @@ gig show java intellij sublimetext
 gig --help
 ```
 
-# gitignore template files sourced in 
+## gitignore template files sourced in 
 
 [GitHub gitignore repository](https://github.com/github/gitignore)
 
-# ChangeLog
+## Screenshot
+
+![gig](https://raw.github.com/hackrslab/gig/master/screenshot.jpg)
+
+## ChangeLog
 
 [See the ChangeLog](https://github.com/hackrslab/gig/tree/master/ChangeLog)
 
-# LICENCE
+## LICENCE
 
 ## MIT LICENSE
 
