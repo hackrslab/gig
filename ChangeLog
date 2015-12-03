@@ -1,5 +1,9 @@
 # ChangeLog
 
+## v1.0.0 - 2015.12.03 (GMT+09)
+- Update gitignore template from https://github.com/github/gitignore
+- update npm dependency
+
 ## v0.2.5 - 2015.04.08 (GMT+09)
 - Update README.md
 - Change help messages
