@@ -1,5 +1,9 @@
 # ChangeLog
 
+## v1.0.1 - 2017. 01. 02 (GMT+09)
+- Update gitignore template from https://github.com/github/gitignore
+- Used version info from package.json in config.js
+
 ## v1.0.0 - 2015.12.03 (GMT+09)
 - Update gitignore template from https://github.com/github/gitignore
 - update npm dependency
