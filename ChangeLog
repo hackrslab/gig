@@ -1,5 +1,8 @@
 # ChangeLog
 
+## v1.1.1 - 2018. 07. 19(GMT+09)
+- Update gitignore template from https://github.com/github/gitignore
+
 ## v1.1.0 - 2017. 01. 04 (GMT+09)
 - Remove npm_modules directory
 - add ignore patterns for nodejs in .gitignore file
