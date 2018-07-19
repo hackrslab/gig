@@ -1,21 +1,17 @@
 {
   "name": "gig",
   "description": "gig helps you create .gitignore files for your git project.",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "insanehong <insanehong@gmail.com>",
   "maintainers": "daegeun.kim <dgkim84@gmail.com>",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/hackrslab/gig/blob/master/LICENSE"
-    }
-  ],
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com/hackrslab/gig.git"
+    "url": "https://github.com/hackrslab/gig.git"
   },
+  "homepage": "https://github.com/hackrslab/gig#readme",
   "bugs": {
-    "url": "http://github.com/hackrslab/gig/issues"
+    "url": "https://github.com/hackrslab/gig/issues"
   },
   "engines": {
     "node": ">= 0.10.0"
