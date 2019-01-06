@@ -1,0 +1,7 @@
+{
+  "rules": {
+    "quotes": ["error", "single"],
+    "max-len": ["error", { "code": 120 }],
+    "operator-linebreak": ["error", "before"]
+  }
+}
