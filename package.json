@@ -23,7 +23,8 @@
   "dependencies": {
     "colors": "^1.1.2",
     "mkdirp": "^0.5.1",
-    "nopt": "^3.0.6"
+    "nopt": "^3.0.6",
+    "recursive-search": "^1.0.1"
   },
   "devDependencies": {},
   "bin": {
