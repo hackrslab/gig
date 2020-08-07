@@ -1,6 +1,6 @@
 # gig
 
-gig helps you create a new `.gitignore` files for your git project.
+gig helps you create a new `.gitignore` file for your git project.
 
 ## contrib
 * [Git bash extension - git ignore](https://github.com/hackrslab/gig/tree/master/contrib/git-bash-ext)
@@ -24,7 +24,7 @@ npm update -g gig
 generate a `.gitignore` file for your git project
 
 ```
-# If a `.gitignore` file aleady exists, append conditions to the `.gitignore` file.
+# If a `.gitignore` file already exists, append conditions to the `.gitignore` file.
 gig gen java intellij sublimetext  
 
 # If you want to overrride a `.gitignore` file, add commands to options : --override (shortcut : -o) 
@@ -37,7 +37,7 @@ gig gen -o java intellij sublimetext
 pkg command is to create a custom template. 
 
 ```
-# If a 'mypakage' file aleady exists, append conditions to the 'mypakage' file.
+# If a 'mypakage' file already exists, append conditions to the 'mypakage' file.
 gig pkg -name 'mypakage' java intellij sublimetext  
 
 # if you want to override a `mypakage` file, add commands to options : --override (shortcut : -o) 
